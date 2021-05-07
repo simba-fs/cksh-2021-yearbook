@@ -29,7 +29,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
- 
+
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -67,7 +67,7 @@ index_generator:
   order_by: -date
 
 # Category & Tag
-default_category: uncategorized
+default_category: 
 category_map:
 tag_map:
 
