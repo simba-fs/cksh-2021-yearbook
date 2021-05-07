@@ -9,10 +9,11 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
+     
       - name: Use Node.js v14.15.0
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
-          node_version: v14.15.0
+          node_version: 14
           
       - name: Configuration environment
         env:
