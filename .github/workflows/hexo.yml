@@ -58,6 +58,7 @@ jobs:
       - name: ssh deploy
         uses: easingthemes/ssh-deploy@v2.1.6
         env:
+          ARGS: "-rltgoDzvO --delete"
           REMOTE_HOST: ${{ secrets.HOST }}
           REMOTE_USER: ${{ secrets.USERNAME }}
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_KEY }}
