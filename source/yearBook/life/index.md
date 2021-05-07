@@ -1,5 +1,5 @@
 ---
-title: yearBook
+title: life
 date: 2021-05-07 10:57:33
 ---
 [301](./301)  
