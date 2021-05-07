@@ -50,12 +50,11 @@ jobs:
           
       - name: Install dependencies
         run: |
-          npm i -g hexo-cli
           npm i
           
       - name: Generate hexo
         run: |
-          hexo generate
+          ./node_modules/hexo-cli/bin/hexo generate
       - name: ssh deploy
         uses: easingthemes/ssh-deploy@v2.1.6
         env:
